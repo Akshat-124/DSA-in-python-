@@ -6,5 +6,3 @@ def largest_element(nums):
     return largest
 nums=[55,90,-99,3,67]
 print(largest_element(nums))
-
-
