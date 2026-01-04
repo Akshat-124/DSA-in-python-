@@ -1,4 +1,4 @@
-# def longest_seq(nums):                   #brute force (TC=o(n^2), SC=o(1))
+# def longest_seq(nums):                   #brute force (TC=o(n^2), SC=o(1))     #LeetCode=128#
 #     n=len(nums)
 #     max_count=0
 #     for i in range (0,n):
@@ -12,7 +12,7 @@
 # nums=[1,99,101,98,2,3,5,100]
 # print(longest_seq(nums))
 
-# def longest_seq(nums):                    #better sol (TC=o(n+nlogn))  
+# def longest_seq(nums):                     #better sol (TC=o(n+nlogn))  
 #     n=len(nums)
 #     nums.sort()
 #     count=0
@@ -31,7 +31,7 @@
 # nums=[1,99,101,98,2,3,5,100]
 # print(longest_seq(nums))
 
-def longest_seq(nums):
+def longest_seq(nums):                        #optimal sol (TC=o(3n),SC=o(n))            
     n=len(nums)
     my_set=set()
     for i in range(0,n):

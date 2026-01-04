@@ -38,7 +38,7 @@ print("----------------------")
 
 print("----------------------")
 
-def lwr_tri(nums):                       #diagona'
+def diagonal(nums):                       #diagonal'
     rows=len(nums)
     cols=len(nums[0])
     for i in range (0,rows):
@@ -48,4 +48,4 @@ def lwr_tri(nums):                       #diagona'
             else:
                 print()
 nums=[[5,20,3],[7,-10,9],[1,-52,6]]
-print(lwr_tri(nums))
+print(diagonal(nums))

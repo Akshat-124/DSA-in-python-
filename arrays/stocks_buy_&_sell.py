@@ -1,4 +1,4 @@
-# def stocks(prices):                              #bruteforce (TC=o(n^2))
+# def stocks(prices):       #leetcode-121                            #bruteforce (TC=o(n^2))
 #     n=len(prices)
 #     max_profit=0
 #     for i in range (0,n):
@@ -11,7 +11,7 @@
 # prices=[7,2,1,5,6,4,8]
 # print(stocks(prices))
 
-def stocks(prices):
+def stocks(prices):                                 #optimal (TC=o(n))
     n=len(prices)
     max_profit=0
     min_price=float("inf")

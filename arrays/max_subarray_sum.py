@@ -1,4 +1,4 @@
-# def max_subarray(nums):                #brute force(TC-o(n^2))
+# def max_subarray(nums):          #leetcode-53                     #brute force(TC-o(n^2))
 #     n=len(nums)
 #     maxi=float("-inf")
 #     for i in range (0,n):
@@ -11,7 +11,7 @@
 # nums=[-2,1,-3,4,-1,2,1,-5,4]
 # print(max_subarray(nums))
 
-def max_subarray(nums):
+def max_subarray(nums):               #optimal sol (TC-o(n))
     n=len(nums)
     maxi=float("-inf")
     total=0

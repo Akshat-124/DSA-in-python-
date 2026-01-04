@@ -1,4 +1,4 @@
-def findMaxConsecutiveOnes(nums):
+def findMaxConsecutiveOnes(nums):          #leetcode 485
     count = 0
     max_count = 0
 

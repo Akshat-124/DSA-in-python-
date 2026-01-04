@@ -8,9 +8,9 @@
 # nums=[7,5,-2,3,9,0,6,10]
 # print(r_rotate(nums))    
 
-def r_rotate(nums):
-    n=len(nums)
-    nums[:]=[nums[n-1]]+nums[0:n-1]
-    return nums[:]
-nums=[7,5,-2,3,9,0,6,10]
-print(r_rotate(nums))
+# def r_rotate(nums):                 #through slicing
+#     n=len(nums)
+#     nums[:]=[nums[n-1]]+nums[0:n-1] #here we do list +list
+#     return nums[:]
+# nums=[7,5,-2,3,9,0,6,10]
+# print(r_rotate(nums))

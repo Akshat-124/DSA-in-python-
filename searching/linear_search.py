@@ -1,4 +1,4 @@
-def linear_search(nums,target):
+def linear_search(nums,target):         #TC=o(n)
     n=len(nums)
     for i in range(0,n):
         if nums[i]==target:

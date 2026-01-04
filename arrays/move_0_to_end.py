@@ -13,7 +13,7 @@
 # nums=[1,0,2,4,3,0,0,3,5,1]
 # print(move(nums))
 
-def move(nums):
+def move(nums):                                     # optimal solution <TC=o(n)>,<SC=o(1)>
     if len(nums)==1:
         return
     i=0

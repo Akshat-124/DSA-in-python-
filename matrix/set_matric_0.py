@@ -1,5 +1,5 @@
 # def mark_inf(matrix,row,col):                #bruteforce (TC=o(n*m)+o(n+m)+o(n*m))
-#     r=len(matrix)
+#     r=len(matrix)                             #leetcode=73#
 #     c=len(matrix[0])
 #     for i in range(0,r):
 #         if matrix[i][col]!=0:
@@ -23,7 +23,7 @@
 # mark_inf(matrix,1,2)
 # print(matrix)
 
-def mark_zero(matrix):
+def mark_zero(matrix):                        #optimal (TC=o(n*m))
     r=len(matrix)
     c=len(matrix[0])
     rowtrack=[0 for _ in range (r)]

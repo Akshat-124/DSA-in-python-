@@ -6,7 +6,7 @@
 # nums=[1,0,3,4]
 # print(missing(nums))
 
-def missing(nums):
+def missing(nums):                   # optimal , TC=o(n)
     n=len(nums)
     return (n*(n+1))//2 - sum(nums)
 nums=[0,2,3,4]
