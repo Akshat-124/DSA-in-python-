@@ -22,7 +22,7 @@ class DoublyLinkedList:
         temp.next = new_node
         new_node.prev = temp
 
-    def del_dupli(self):
+    def del_dupli(self):                    #optimal deleting duplicates#
         curr = self.head
         while curr and curr.next:
             if curr.data == curr.next.data:
@@ -53,7 +53,7 @@ dll.print_list()
 
 dll.del_dupli()
 
-print("After removing duplicates:")
+print("After removing duplicate:")
 dll.print_list()
 
 
