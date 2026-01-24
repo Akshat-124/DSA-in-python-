@@ -16,7 +16,7 @@ class DoublyLinkedList:
             temp = temp.next
         temp.next = new_node
         new_node.prev = temp
-    def del_key(self,key):
+    def del_key(self,key):                   #del_key_occurances TC=o(n),SC=o(1)
         if self.head is None and self.head.val==key:
             return None
         temp=self.head
