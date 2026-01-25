@@ -1,4 +1,4 @@
-n=16
+n=16      #TC=o(1),SC=o(1)
 result = n & (n-1)
 if result==0:
     print(True)
