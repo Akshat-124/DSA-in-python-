@@ -1,4 +1,4 @@
-def power(nums):
+def power(nums):     #TC=o(2^n *)
     n=len(nums)
     total_subset=1<<n
     result=[]
